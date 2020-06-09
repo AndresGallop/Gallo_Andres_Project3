@@ -1,15 +1,15 @@
-* { border:0; margin:0; }
+/* { border:150px; margin:150px; }*/
 
-.mainConatainer{
-	margin:;
+body{
 	display: flex;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .topMenu {
 	display: flex;
 	width: 1080px;
 	height: 75px;
-	background-color: yellow;
 	flex-direction: column;
 }
 
@@ -48,19 +48,21 @@ a{
 	display: flex;
 	width: 1080px;
 	height: 500px;
-	background-color: blue;
 	flex-wrap: wrap;
 	align-content: flex-start;
 }
 
 .image{
 	width: 1080px;
-	height: 350px;
-	background-color: #989898;
+	height: 500px;
+	background-image: url(../images/heroimg.png);
+	background-size: cover;
+	background-position:center;
 }
 
 .heroImage h3{
-	font-weight:bold; 
+	font-weight:bold;
+	color: white;
 }
 
 .product{
@@ -71,12 +73,13 @@ a{
 	flex-direction: column;
 	width: 340px;
 	height: 150px;
-	background-color: #D9D9D9;
+	background-color: #FF9F07;
 }
 
 .product p{
 	width: 250px;
 	margin-top: -35px;
+	color: white;
 
 }
 
@@ -88,12 +91,13 @@ a{
 	flex-direction: column;
 	width: 400px;
 	height: 150px;
-	background-color: #AFAFAF;
+	background-color: #A11F02;
 }
 
 .about p{
 	width: 250px;
 	margin-top: -35px;
+	color: white;
 
 }
 .contact{
@@ -104,12 +108,13 @@ a{
 	flex-direction: column;
 	width: 340px;
 	height: 150px;
-	background-color: #BCBBBB;
+	background-color: #6F0A01;
 }
 
 .contact p{
 	width: 250px;
 	margin-top: -35px;
+	color: white;
 
 }
 
@@ -121,7 +126,8 @@ a{
 	background-color: white;
 	align-content: flex-start;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+	margin-top: 170px;
 }
 
 .blocks{
@@ -150,7 +156,36 @@ a{
 .imga {
 	width: 130px;
 	height: 90px;
-	background-color: #AFAFAF;
+	background-image: url(../images/trigo.png);
+	background-size: cover;
+	background-position:center;
+	margin-bottom: -15px;
+}
+
+.imge {
+	width: 130px;
+	height: 90px;
+	background-image: url(../images/feet.jpg);
+	background-size: cover;
+	background-position:center;
+	margin-bottom: -15px;
+}
+
+.imgi {
+	width: 130px;
+	height: 90px;
+	background-image: url(../images/germany.png);
+	background-size: cover;
+	background-position:center;
+	margin-bottom: -15px;
+}
+
+.imgo {
+	width: 130px;
+	height: 90px;
+	background-image: url(../images/integrity.png);
+	background-size: cover;
+	background-position:center;
 	margin-bottom: -15px;
 }
 
@@ -168,11 +203,13 @@ a{
 .bottle{
 	width:280px;
 	height: 400px;
-	background-color: black;
+	background-image: url(../images/bottle.png);
+	background-size: cover;
+	background-position:center;
 }
 
 .bottless h2{
-	color: Black;
+	color: black;
 	font-weight: bold;
 	font-size: 22px;
 }
@@ -190,7 +227,7 @@ a{
 	display: flex;
 	width: 1080px;
 	height:605px;
-	background-color: #E9E9E9; 
+	background-color: #FF9F07;
 	justify-content: center;
 	align-items: center;
 }
@@ -198,7 +235,9 @@ a{
 .cardImg {
 	width: 450px;
 	height: 450px;
-	background-color: #989898;
+	background-image: url(../images/Giftcard.png);
+	background-size: cover;
+	background-position:center;
 	align-self: center;
 	justify-content: center;
 }
@@ -207,7 +246,7 @@ a{
 	display: flex;
 	width: 400px;
 	height: 350px;
-	background-color: white;
+	background-color: #CACACA;
 	margin-left: -70px;
 	padding: 10px;
 	justify-content: flex-start;
@@ -232,29 +271,26 @@ a{
 }
 
 .box{
-	width: 390px; 
+	width: 390px;
 	height:40px;
-	margin-top: 3px;
+	margin-top: 10px;
 	border: solid 2px black;
 }
 
-.boxs{
-	width: 320px;
-	height: 30px;
-}
+
 
 .cad{
 	width: 50px;
 	margin-left:330px;
 	margin-top: -30px;
-    background-color: white;
 }
 
-.button{
+.button button{
 	display: flex;
 	width: 390px;
 	height: 30px;
-	background-color: black;
+	color: white;
+	background-color: #00A1E4;
 	justify-content: center;
 	align-items: center;
 	margin-top: 15px;
@@ -268,7 +304,7 @@ a{
 	display: flex;
 	width: 1080px;
 	height: 150px;
-	background-color: white;
+	background-color: #F3EDCB;
 	justify-content: center;
 	justify-content: space-around;
 	align-items: center;
@@ -296,31 +332,43 @@ a{
 	width: 358px;
 	height:170px;
 	background-color: #900099;
-	border: solid 1px black;  
+	border: solid 1px black;
 }
 
 .i{
-	background-color:#D3D3D3 ;
+	background-image: url(../images/desert.png);
+	background-size: cover;
+	background-position:center;
 }
 
 .ii{
-	background-color: #E4E4E4;
+	background-image: url(../images/Cross.png);
+	background-size: cover;
+	background-position:center;
 }
 
 .iii{
-	background-color:#AFAFAF ;
+	background-image: url(../images/pack.png);
+	background-size: cover;
+	background-position:center ;
 }
 
 .iv{
-	background-color: #E4E4E4;
+	background-image: url(../images/side.png);
+	background-size: cover;
+	background-position:center;
 }
 
 .v{
-	background-color:#AFAFAF ;
+	background-image: url(../images/red.png);
+	background-size: cover;
+	background-position:center ;
 }
 
 .vi{
-	background-color: #E4E4E4;
+	background-image: url(../images/glass.png);
+	background-size: cover;
+	background-position:center;
 }
 
 .footer{
@@ -338,16 +386,34 @@ a{
 .icons{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;	
+	align-items: center;
 	width: 300px;
 	height: 50px;
 	margin:40px;
 }
 
-.icon{
+.iconi{
 	width: 40px;
 	height: 40px;
-	background-color: white;
+	background-image: url(../images/insta.jpg);
+	background-size: cover;
+	background-position:center;
+}
+
+.iconf{
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/fbook.png);
+	background-size: cover;
+	background-position:center;
+}
+
+.icont{
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/twit.jpg);
+	background-size: cover;
+	background-position:center;
 }
 
 .footer p{
@@ -361,7 +427,7 @@ a{
 	align-items: center;
 	width: 320px;
 	height: 30px;
-	
+
 }
 
 .buttonf{
@@ -402,6 +468,354 @@ a{
 	font-size: 12px;
 }
 
+/*About Us Starts here so every class will have a letter a at the beggining to don't get confused*/
 
+.aheroImg{
+	display: flex;
+	width: 1080px;
+	height: 550px;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background-color: #F3EDCB;
+}
 
+.aheroImg h2{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.aheroImg p{
+	width: 900px;
+	text-align: center;
+}
+
+.aimage{
+	width:1000px;
+	height: 400px;
+	background-image: url(../images/CrossAD.png);
+	background-size: cover;
+	background-position:center;
+}
+
+.acompany{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	width: 1080px;
+	height: 360px;
+	background-color:#F3EDCB;
+}
+
+.asquare{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	width: 620px;
+	height: 350px;
+	background-color:white;
+	margin-right: -50px;
+}
+
+.asquare p{
+	width: 550px;
+	font-size: 17px;
+}
+
+.aprocess{
+	display: flex;
+	margin-top: -13px;
+	width: 350px;
+	height: 160px;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/abstract.jpg);
+	background-size: cover;
+	background-position:center;
+}
+
+.amission{
+	display: flex;
+	margin-bottom: -13px;
+	width: 350px;
+	height: 160px;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/abstract.jpg);
+	background-size: cover;
+	background-position:center;
+}
+
+.alabel {
+	display: flex;
+	width: 150px;
+	height: 35px;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.acontactinfo{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	width: 1080px;
+	height: 380px;
+	background-color:#F3EDCB;
+}
+
+.ainfo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-right: -25px;
+	width: 350px;
+	height: 350px;
+	background-color: #A11F02;
+}
+
+.atextinfo{
+	height: 200px;
+	background-color: #A11F02;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 250px;
+}
+
+.ainfo p{
+	text-align: justify;
+	font-size: 19px;
+	color: white;
+}
+
+.abutton{
+	margin-left: -150px;
+	display: flex;
+	width: 100px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	background-color: orange;
+}
+
+.afinalimge{
+	width: 620px;
+	height: 350px;
+	background-image: url(../images/beerstock.jpg);
+	background-size: cover;
+	background-position:center;
+	margin-left: -20px;
+}
+
+/*Advertisement Starts here so every class will have a letter b at the beggining to don't get confused*/
+
+.bheroImg{
+	display: flex;
+	width: 1080px;
+	height: 600px;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background-color: #F3EDCB;
+}
+
+.bheroImg h2{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.bheroImg p{
+	width: 900px;
+	text-align: center;
+}
+
+.bimage{
+	width:1000px;
+	height: 400px;
+	background-image: url(../images/yougo.png);
+	background-size: cover;
+	background-position:center;
+}
+
+.bslogan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+
+.bslogan p{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*Products Starts here so every class will have a letter p at the beggining to don't get confused*/
+
+.pheroImg{
+	display: flex;
+	width: 1080px;
+	height: 600px;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background-color: #F3EDCB;
+}
+
+.pheroImg h2{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.pheroImg p{
+	width: 900px;
+	text-align: center;
+}
+
+.pimage{
+	width:1000px;
+	height: 430px;
+	background-image: url(../images/desire.png);
+	background-size: cover;
+	background-position:center;
+}
+
+.pproducts{
+	display: flex;
+	width: 1080px;
+	height: 700px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	background-color: #F3EDCB;
+}
+
+.pproduct{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	height: 330px;
+	width: 300px;
+	background-color: #F3EDCB;
+	margin-bottom: 20px;
+}
+
+.pproimage{
+	width: 280px;
+	height: 200px;
+	background-image: url(../images/blue.png);
+	background-size: cover;
+	background-position:center;
+}
+
+.pprotext{
+	width: 230px;
+	font-size: 17px;
+}
+
+.pprice{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+/*Contact Us Starts here so every class will have a letter c at the beggining to don't get confused*/
+
+.cwhole{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 1080px;
+	height: 680px;
+	background-color: white;
+}
+
+.ccontact{
+	display: flex;
+	width: 1080px;
+	height: 300px;
+	justify-content: flex-start;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background-color: #F3EDCB;
+
+}
+
+.ctex{
+	width: 600px;
+}
+
+.ccontact p{
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+.ccon{
+	font-weight: bold;
+}
+
+.cform{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 600px;
+	height: 420px;
+	background-color: #CACACA;
+	margin-top: -100px;
+}
+
+.cform h4{
+	margin-left: 50px;
+
+}
+
+.csquare{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	width: 480px;
+	height: 25px;
+	
+}
+
+.ccsquare{
+	margin-left: 50px;
+	margin-bottom: 30px;
+	width: 480px;
+	height: 90px;
+}
+
+.cbig{
+	height: 150px;
+	width: 500px;
+}
+
+.cbutton{
+	width: 150px;
+	margin-left: 50px;
+	color: white;
+	background-color: #00A1E4;
+}
 
